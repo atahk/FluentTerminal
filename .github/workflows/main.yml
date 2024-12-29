@@ -20,4 +20,4 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
     
     - name: MSBuild
-      run: msbuild FluentTerminal.sln -t:build -p:Configuration=Debug -p:Platform=x64 -m -restore
+      run: msbuild FluentTerminal.sln -t:build -p:Configuration=Release -p:Platform=arm64 -m -restore
